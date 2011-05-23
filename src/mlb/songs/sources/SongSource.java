@@ -1,4 +1,7 @@
-package mlb;
+package mlb.songs.sources;
+
+import mlb.songs.Song;
+
 
 public abstract class SongSource {
 
