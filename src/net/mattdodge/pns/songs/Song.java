@@ -1,4 +1,4 @@
-package mlb.songs;
+package net.mattdodge.pns.songs;
 
 public class Song implements Comparable<Song> {
 

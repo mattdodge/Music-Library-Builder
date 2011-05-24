@@ -1,6 +1,6 @@
-package mlb.songs.sources;
+package net.mattdodge.pns.songs.sources;
 
-import mlb.songs.Song;
+import net.mattdodge.pns.songs.Song;
 
 
 public abstract class SongSource {

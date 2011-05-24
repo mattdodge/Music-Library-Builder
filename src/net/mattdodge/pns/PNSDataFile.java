@@ -1,4 +1,4 @@
-package mlb;
+package net.mattdodge.pns;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,16 +6,17 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import mlb.songs.SongLibrary;
+import net.mattdodge.pns.songs.SongLibrary;
 
-public class MLBDataFile {
+
+public class PNSDataFile {
 
 	private File dataFile;
 	
 	private SongLibrary library;
-	private MLBConfig config;
+	private PNSConfig config;
 	
-	public MLBDataFile(String dataFileLoc) {
+	public PNSDataFile(String dataFileLoc) {
 		this.dataFile = new File(dataFileLoc);
 		
 		this.loadData();
